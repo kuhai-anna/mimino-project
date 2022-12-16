@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://kuhai-anna.github.io/mimino-prоject",
+  "homepage": "https://kuhai-anna.github.io/mimino",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mimino-project/"
+    "build": "parcel build src/*.html --public-url /mimino/"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
     "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
